@@ -71,7 +71,7 @@ if st.button("뉴스요약 비교"):
             st.success(gpt_summary)
             
             genie_summary = genie_summarize(input_text)
-            st.write(':sunglasses: Midm 뉴스요약(Mi:dm-3B)')
+            st.write(':sunglasses: Midm 뉴스요약(Midm-3B)')
             st.success(genie_summary)
         except:
             st.error("요청 오류가 발생했습니다")
