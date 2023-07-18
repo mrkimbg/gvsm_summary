@@ -7,8 +7,6 @@ from datetime import datetime
 import hmac, hashlib
 from pytz import timezone
 
-# openai.api_key = "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"
-
 def gpt_summarize(text):
     # system_instruction = "assistant는 user의 입력을 bullet point로 3줄 요약해준다."
     system_instruction = "assistant는 user의 입력을 26자로 요약해준다."
